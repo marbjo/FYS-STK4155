@@ -49,7 +49,7 @@
 
 \title{FYS-STK4155 - Project1}
 \author{Magnus Kristoffersen, Markus Bjørklund}
-\date{September 2023}
+\date{October 2023}
 
 
 \begin{document}
@@ -57,7 +57,7 @@
 \maketitle
 
 \begin{abstract}
-    We investigated the mean squared error (MSE) and $R^2$ score for ordinary least squares (OLS), Ridge and Lasso regression, and found that the error decreased as a function of model complexity, here represented by polynomial order. For the data sets used in this analysis, regression using ordinary least squares resulted in the lowest mean squared error and highest $R^2$ score compared to Ridge and Lasso for functions of the same complexity. The error of the Ridge and Lasso regressions decreased with decreasing values of $\lambda$, as these regression methods approach OLS in the limit $\lambda \rightarrow 0$. We implemented the bootstrap and cross-validation resampling methods, which were used to increase and evaluate the accuracy of the fitted regression models. The bootstrap resampling was additionally used to study the bias-variance tradeoff of OLS with functions of increasing complexity. Finally, we applied the trained models to real terrain data, off the coast of Stavanger, Norway.
+    We investigated the mean squared error (MSE) and $R^2$ score for ordinary least squares (OLS), Ridge and Lasso regression, and found that the error decreased as a function of model complexity, here represented by polynomial order. For the data sets used in this analysis, regression using ordinary least squares resulted in the lowest mean squared error and highest $R^2$ score compared to Ridge and Lasso for functions of the same complexity. The error of the Ridge and Lasso regressions decreased with decreasing values of $\lambda$, as these regression methods approach OLS in the limit $\lambda \rightarrow 0$. We implemented the bootstrap and cross-validation resampling methods, which were used to increase and evaluate the accuracy of the fitted regression models. The bootstrap resampling was additionally used to study the bias-variance tradeoff of OLS with functions of increasing complexity. Finally, we applied the trained models to real terrain data, off the coast of Stavanger, Norway. Code, figures and documentation can be viewed on GitHub\footnote{\url{https://github.com/marbjo/FYS-STK4155/tree/master/project1}}.
 \end{abstract}
 
 \section{Introduction}
