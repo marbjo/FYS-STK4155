@@ -1,0 +1,2 @@
+model_checkpoint_path: "parallel_two_fc_model_weights"
+all_model_checkpoint_paths: "parallel_two_fc_model_weights"

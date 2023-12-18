@@ -1,0 +1,2 @@
+model_checkpoint_path: "single_fc_layer_CNN_model_weights"
+all_model_checkpoint_paths: "single_fc_layer_CNN_model_weights"

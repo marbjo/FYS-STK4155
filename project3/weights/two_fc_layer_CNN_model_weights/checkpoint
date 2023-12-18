@@ -1,0 +1,2 @@
+model_checkpoint_path: "two_fc_layer_CNN_model_weights"
+all_model_checkpoint_paths: "two_fc_layer_CNN_model_weights"

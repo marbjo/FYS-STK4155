@@ -1,0 +1,2 @@
+model_checkpoint_path: "two_lstm_rnn_model_weights"
+all_model_checkpoint_paths: "two_lstm_rnn_model_weights"

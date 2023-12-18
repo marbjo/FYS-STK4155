@@ -1,0 +1,9 @@
+The code associated with this work is located in the 'src' folder.
+
+By running the code, the saved weights for each of the neural network models 
+will be loaded from the corresponding folder in the 'weights' folder.
+Then the models will predict classification labels for the test set of the RadioML 2016.10A data set.
+Finally, the model will show the various plot found in the report.
+
+In order to train the model further, the user may remove uncomment the training blocks in the code, 
+and run the program.
